@@ -1,0 +1,37 @@
+PA - 14/08/2026 
+Comando em Java
+
+Ctrl + Shift + P
+Procura algo tipo criar java, build java
+
+Tipos de Dados:
+real - double
+inteiro - int
+booleano - boolean
+
+
+System.out.print = comando de print ->  System.out.print
+ln = pula linha ( println )
+
+\n - pula linha
+
+declarando variáveis: int x, y;
+x = 123;
+y= 456;
+
+===========================================
+Operadores Relacionais
+
+> Maior que
+< Menor que
+>= Maior igual
+<= Menor igual
+== Igual
+!= Diferente
+&& and
+|| or
+! not
+======================================
+if else
+
+if(condicao){valor SE verdadeiro}else{}
