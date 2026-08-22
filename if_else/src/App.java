@@ -1,11 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("If Else");
-        double nota1, nota2, nota3, media;
-
-nota1 = 7.5;
-nota2 = 5.5;
-nota3 = 2.5;
+       double nota1, nota2, nota3, media;
+       nota1 = 7.5;
+       nota2 = 5.5;
+       nota3 = 2.5;
 
 media = (nota1 +nota2 +nota3)/3;
 
