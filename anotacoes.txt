@@ -15,7 +15,10 @@ y= 456;
 
 ======================================================
 		ENTRADA E SAIDA
+System.out.print("""
 
+essas 3 aspas permitem quebrar linha e escrever
+""")
 System.out.print = comando de print ->
 ln = pula linha ( println )
 \n - pula linha
@@ -39,10 +42,11 @@ importar a entrada do usuário
 . import java.until.Scanner; antes do public class app
 . Scanner <variavel scanner> = new Scanner(System.in); inicia o scanner
 . <variavel scanner>.close(); fecha o scanner
-	
+
 	usando na pratica
 . System.out.print("frase do escreval")
-. <variável que ganha valor> = <variavel scanner>.nextTIPODEDADO();
+. <variável que ganha valor> = <variavel scanner>.nextTIPODEDADO(); pra string é nextLine
+
 
 ===========================================================
 
