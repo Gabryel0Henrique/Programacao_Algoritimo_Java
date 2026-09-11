@@ -71,6 +71,19 @@ switch (variavel com a resposta) {
         // código se nenhum case for encontrado;
         break;
 }
+
+Switch Case expression
+
+switch(notaSwitch){
+            case 1 -> System.out.println("A (Excelente)");
+            case 2 -> System.out.println("B (Muito Bom)");
+            case 3 -> System.out.println("C (Bom)");
+            case 4 -> System.out.println("D (Satisfatório)");
+            case 5 -> System.out.println("E  (Reprovado)");
+            default-> System.out.println("Sistema de If falhou");
+        }
+A diferença é que usa -> no lugar do =
+e não precisa de break
 ======================================
 Operadores Relacionais
 
