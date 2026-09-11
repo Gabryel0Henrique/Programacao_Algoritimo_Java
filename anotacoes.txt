@@ -33,6 +33,7 @@ caso quiser um numero x de casas decimais após a virgula use: %.NumeroF ( %.2f 
 %d - variável int
 %s - variável string
 %b - variável boolean
+%c - variavel de 1 caractere ( char )
 
 
 comando leia
