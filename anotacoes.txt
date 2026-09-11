@@ -55,19 +55,19 @@ Switch Case
 switch (variavel com a resposta) {
 
     case valor1:
-        // código se for valor1
+        // código se for valor1;
         break;
 
     case valor2:
-        // código se for valor2
+        // código se for valor2;
         break;
 
     case valor3:
-        // código se for valor3
+        // código se for valor3;
         break;
 
     default:
-        // código se nenhum case for encontrado
+        // código se nenhum case for encontrado;
         break;
 }
 ======================================
