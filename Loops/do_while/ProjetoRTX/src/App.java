@@ -22,6 +22,23 @@ public class App {
                     default -> System.out.println("Opção Inválida");
                 }
 
+                while(opcaoFreela<1 || opcaoFreela>3){
+                    System.out.println("""
+                Qual Serviço Você Escolherá?
+                1 - Formatação de PC e Backup (R$ 150,00)
+                2 - Configuração de Roteador/Rede (R$ 200,00)
+                3 - Criação de Landing Page em HTML/CSS (R$ 500,00)
+                """);
+                opcaoFreela = inUser.nextInt();
+
+                switch (opcaoFreela) {
+                    case 1 -> {valorRecebido = 150.0;}
+                    case 2 -> {valorRecebido = 200.0;}
+                    case 3 -> {valorRecebido = 500.0;}
+                    default -> System.out.println("Opção Inválida");
+                }
+                }
+
                 System.out.println("""
                     Qual a forma de pagamento?
                     1 - Pix
@@ -34,6 +51,22 @@ public class App {
                     case 1 -> {}
                     case 2 -> {valorRecebido -= 10;}
                     default -> System.out.println("Opção Inválida");
+                }
+
+                while(opcaoPagamenmto<1 || opcaoPagamenmto>2){
+                    System.out.println("""
+                    Qual a forma de pagamento?
+                    1 - Pix
+                    2 - Cartão
+                """);
+                opcaoPagamenmto = inUser.nextInt();
+
+
+                 switch (opcaoPagamenmto) {
+                    case 1 -> {}
+                    case 2 -> {valorRecebido -= 10;}
+                    default -> System.out.println("Opção Inválida");
+                }
                 }
 
                 saldo = saldo + valorRecebido;
